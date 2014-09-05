@@ -1,0 +1,93 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath8"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number 8:Goal Setter">
+
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="magic ball4.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Text="You relish a good fight and , literally enjoy a struggle for power! Being tough and strong, you easily dominate others and can be ruthless too. You dislike being dependent on others. You have a die hard ambition and a strong will. You achieve goals slowly, but confidently. You usually make a mark in business and often display sporting or athletic ability. Appearance matters to you. You enjoy the role of a philanthropist too. The expression 8 is well- equipped in a managerial sense. You have outstanding organizational and administrative capabilities .You have the potential for considerable achievements in business or other powerful positions. You can expect to receive financial and material rewards. You have the skill and abilities to establish or operate a business with great efficiency. You have good judgement when it comes to money and commercial matters, and you how to build and accumulate material wealth. No one has any more energy that a person with the 8 expression who has a plan laid and is starting to work.No one has any more self-confidence either. If  you are expressing the positive qualities of 8 , you are an outstanding manager because you can plan, initiate, and complete projects; you are very dependable and determined." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Text="You can border on extremes- success or failure- and can get frustrated easily. Domestic situations can seem hard to handle. Your strength can intimidate others.The number 8 can be very rigid and stubborn. Ambition sometimes has a way of becoming over-ambition, and you may express an unreasonable impatience with the lack of progress. If your negative side is showing, you may be too exacting, both of yourself and of others. Sometimes this can even becomes a case of intolerance. The number 8 is very materialistic and also desirous of status and power. Neither of these drives are inherently negative unless they are taken to an extreme" FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock  TextWrapping="Wrap" Text="Anyone involved with the number 8 will need to initiate any discussions about love or commitment as they will never expose themselves emotionally if they are unsure of the response they will receive Early in life they will not be overly concerned with the romance or relationships- they are more likely to focus their attentions on their ambitions in other areas of the lives. Later in life, however finding a partner and making a commitment may become a ambition in itself. As parents, number 8s find less stressful parenthood  less stressful later in life when they are more likely to have the financial means to provide for their children. "  FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Kindness, forgiveness." VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32"/>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Planet:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="saturn"/>
+            		<LineBreak/>
+            		<Run Text="Day:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="Saturday"/>
+            		<LineBreak/>
+            		<Run Text="Color:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="BLACK"/>
+            		<LineBreak/>
+            		<Run Text="Gem:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="BLUE SAPPHIRE, AMETHIST"/>
+            		<LineBreak/>
+            		<Run Text="Metal:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="IRON"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Numbers">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Friendship:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="4,5,6"/>
+            		<LineBreak/>
+            		<Run Text="Enemy:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,9"/>
+            		<LineBreak/>
+            		<Run Text="Marriage:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,4"/>
+            		<LineBreak/>
+            		<Run Text="Business:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,8"/>
+            		<LineBreak/>
+            		<Run Text="Romance:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,4,5,7"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Profession">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Public servants, or executives." VerticalAlignment="Top" Width="420" FontFamily="Times New Roman" FontSize="32"/>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

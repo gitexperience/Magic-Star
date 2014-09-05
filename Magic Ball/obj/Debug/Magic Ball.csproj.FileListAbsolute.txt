@@ -1,0 +1,129 @@
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ApplicationIcon.png
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Background.png
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic Ball.dll
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic Ball.pdb
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\AppManifest.xaml
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic_Ball.xap
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\App.g.i.cs
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\MainPage.g.i.cs
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.g.resources
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.dll
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.pdb
+c:\users\anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\XapCacheFile.xml
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\WindowsPhoneWatermarkTextBoxControl.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.csprojResolveAssemblyReference.cache
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Page1.g.i.cs
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath1.g.i.cs
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath2.g.i.cs
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath3.g.i.cs
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath4.g.i.cs
+C:\Users\Anubhav\documents\visual studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath5.g.i.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ApplicationIcon.png
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Background.png
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic Ball.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic Ball.pdb
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\AppManifest.xaml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Magic_Ball.xap
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\System.Windows.Interactivity.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Expression.Interactions.xml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.xml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\System.Windows.Interactivity.xml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\App.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath1.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath2.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath3.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath4.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath5.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath6.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\MainPage.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Page1.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.g.resources
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\Magic Ball.pdb
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\XapCacheFile.xml
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Debug\WindowsPhoneWatermarkTextBoxControl.dll
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday1.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday2.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday3.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday4.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday5.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday6.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday7.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath7.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath8.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\lifepath9.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday10.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday11.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday12.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday13.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday14.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday15.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday16.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday17.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday18.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday19.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday20.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday21.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday22.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday23.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday24.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday25.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday26.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday27.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday28.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday29.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday8.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday9.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\aboutus.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday30.g.cs
+D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Debug\birthday31.g.cs

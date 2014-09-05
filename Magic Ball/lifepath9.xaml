@@ -1,0 +1,97 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath9"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number 9:The Humanitarian">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="lifepath4.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock  TextWrapping="Wrap" Text="Containing all other numbers, you are open to unlimited opportunities. You are broad minded, intense and highly adaptable. Being compassionate, you strive to make the world a better place to live for all .You prefer to deal with the larger problems in life, rather than mundane everyday ones. Psychic ability and a need for everyday religion, makes you a fine leader of movements and religious cults. You are not particularly good in financial matters.You like to help others as you were intended to be the &quot;big brother or big sister&quot; type. You operate best when you follow your feelings and sense of compassion, and allow yourself to be sensitive to the need of others. You work well with people, and have the potential to inspire. This suggests that you could successful teach or counsel. Creative ability, imagination and artistic talents(often latent) of the higher order are present in this expression.Some of your talents may have been used at an earlier time in your life, and some may still be latent. Be aware of your capabilities, so that you can make use of them at appropriate times. You have a strong awareness of your own feeling as well as those of others. Friendships, affection, and love are extremely important." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Text="Impatient, temperamental and hot-tempered, you need to be more practical and detailed in whatever you undertake. You are gullible and not a good judge of characters. Undeveloped or ignored, the negative side of the 9 expression can be very selfish and self-centered. If you do not actively involve yourself with work that benefits others, you may tend to express just the opposite characteristics. It is your role to be very involved with other people and their needs, but it may be difficult for you to achieve this role. Aloofness, lack of involvement, and a lack of sensitivity mark the low road of this expression." FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+                <Grid>
+                    <ScrollViewer>
+                        <TextBlock TextWrapping="Wrap" Text="Number 9 are in love with the idea of being in love- they adore romantic gestures and are easily won over by candlelit dinners and poetry. Once Number 9 fall in love, they  will swear their undying love and devotion- this will not necessarily be reciprocated by the object of their desire. If they receive a cautious response, they will decide that the relationship is not for them and will look elsewhere. Number 9 thrive on passion and excitement, and a relationship lacking these qualities is unlikely to satisfy them. Number 9 will generally have good relationships with their children. Arguments may be commonplace, but they will not be of serious  nature.  The only real problem that may arise is if Number 9 become jealous of the attention that their  children receive. In this situation, Number9 should be honest about their jealous and try to arrange time alone with their partners so that they can fully enjoy the times spent as a family." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Patience" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32"/>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Planet:"/>
+            		<Run Text="-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="MARS"/>
+            		<LineBreak/>
+            		<Run Text="Day:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="TUESDAY"/>
+            		<LineBreak/>
+            		<Run Text="Color:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="RED"/>
+            		<LineBreak/>
+            		<Run Text="Gem:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="CORAL"/>
+            		<LineBreak/>
+            		<Run Text="Metal:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="COPPER"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Numbers">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Friendship:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,3"/>
+            		<LineBreak/>
+            		<Run Text="Enemy:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="4,5"/>
+            		<LineBreak/>
+            		<Run Text="Marriage:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,3,6,9"/>
+            		<LineBreak/>
+            		<Run Text="Business:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,3,6,9"/>
+            		<LineBreak/>
+            		<Run Text="Romance:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,3,7,9"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Profession">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Organizers, managers." VerticalAlignment="Top" Width="420" FontFamily="Tahoma" FontSize="32"/>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

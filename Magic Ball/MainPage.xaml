@@ -1,0 +1,67 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+   xmlns:watermark="clr-namespace:System.Windows.Controls;assembly=WindowsPhoneWatermarkTextBoxControl"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity" 
+    xmlns:ec="clr-namespace:Microsoft.Expression.Interactivity.Core;assembly=Microsoft.Expression.Interactions" 
+    x:Class="Magic_Ball.MainPage"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Background.png" Stretch="UniformToFill" Opacity=".8"/>
+
+        </Grid.Background>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle"   Text="MAGIC BALL" TextAlignment="Center" Style="{StaticResource PhoneTextNormalStyle}" Foreground="#FF48FF00" FontFamily="Kokila" FontSize="26.667"/>
+           
+        </StackPanel>
+        
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="16,12,8,-12" Grid.Row="1">
+        	<TextBlock Margin="69,8,75,0" TextWrapping="Wrap" Text="    Enter Your Date Of Birth" VerticalAlignment="Top" Height="38" FontFamily="Bodoni MT" FontSize="24"/>
+        	<TextBlock HorizontalAlignment="Left" Margin="108,73,0,0" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" FontFamily="Baskerville Old Face" FontSize="21.333"/>
+        	<TextBlock Margin="195,73,179,0" TextWrapping="Wrap" Text="Month" VerticalAlignment="Top" d:LayoutOverrides="Width" Height="27" FontFamily="Baskerville Old Face" FontSize="21.333"/>
+        	<TextBlock HorizontalAlignment="Right" Margin="0,73,122,0" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" FontFamily="Baskerville Old Face" FontSize="21.333"/>
+        	<watermark:WatermarkTextBox x:Name="date" WatermarkText="DD" Margin="70,104,0,0"   TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="105" Height="66" RenderTransformOrigin="0.957,0.447" BorderThickness="0,0,3,0" InputScope="Date" FontFamily="Forte"/>
+            <watermark:WatermarkTextBox x:Name="month" WatermarkText="MM"  Margin="178,104,173,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" InputScope="DateMonthName" FontFamily="Forte"/>
+            <watermark:WatermarkTextBox x:Name="year" WatermarkText="YYYY" HorizontalAlignment="Right" Margin="0,104,71,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98" Height="66" RenderTransformOrigin="0.5,0.5" FontFamily="Forte"/>
+            <Button Content="Find Yourself" Height="75" HorizontalAlignment="Left" Margin="108,203,0,0" x:Name="button1" VerticalAlignment="Top" Width="226" BorderThickness="1" d:LayoutOverrides="GridBox" FontFamily="Goudy Old Style" FontSize="26.667" Click="button1_Click" >
+            	
+            </Button>
+            <Button Content="About us" Click="Button_Click_1" HorizontalAlignment="Left" Margin="287,628,0,0" VerticalAlignment="Top" Width="169" BorderThickness="0"/>
+            <Button Content="Rate us" HorizontalAlignment="Left" Click="Button_Click_2" Margin="0,625,0,0" VerticalAlignment="Top" BorderThickness="0"/>
+        </Grid>
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>

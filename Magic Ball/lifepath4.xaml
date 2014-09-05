@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath4"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number 4- The Builder">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="lifepath4.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points" d:IsLocked="True">
+                <Grid>
+                    <ScrollViewer x:Name="scroll5">
+                	<TextBlock TextWrapping="Wrap" Text="You are mature, dependable, sincere and result-oriented. Striving for a solid foundation in life, you are not afraid to make efforts or take pains. You have an organised and planned way of doing things. You take responsibility for others too with the aim of making them stand on their own feet. Although not stingy, you don't spend readily as future security is important for you. However, when feeling secure, you are usually not afraid of taking risks.Order , service and management are the cornerstones of the number 4 expression. Your destiny is to express wonderful organization skills with your over practical, down-to-earth approach. You are the kind of a person who is always willing to work those long, hard hours to push a project through to completion. A patience with detail allows you to become expert in fields such as building , engineering, and all forms of craftsmanship. Your abilities to write and teach may learn towards the more technical and detailed. In the arts, music will likely to be your choice. Artistic talents may also appear in such fields as horiculture and floral arrangements as well. Many skilled physicians and especially surgeons have the 4 expression. You are one who no doubt, fulfiils obligations, and is highly systematic and orderly. You are serious, sincere , honest and faitrhful. It is your role to help and you are." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points" d:IsLocked="True">
+                <Grid>
+                    <ScrollViewer x:Name="scroll6">
+                	<TextBlock TextWrapping="Wrap" Text="You are a workaholic and this can create difficulties in early life. You feel comfortable on a beaten path and dislike diverging from plants.If there too much 4 energies present in your makeup, you may express some of the negative attitudes of the number 4. The obligations that you face may tend to create frustration and feelings of limitation and restriction.You may sometimes find yourself nursing negative attitudes in this regard and these can keep you in a rather low mood. Avoid becoming too rigid, stubborn ,dagmatic and fixed in your opinions. You may have a tendency to develop and hold very strong likes and dislikes, and some of these may border on the classification of prejudice. The negative side of 4 often produces dominant and bossy individuals who use disciplinarian to an excess. These tendencies must be avoided. Finally, like nearly all with 4 expression, you must keep your eye on the big picture and not get overly wrapped up in detail and routine." Margin="0,-2,0,2" FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship" d:IsLocked="True">
+            	<Grid>
+                    <ScrollViewer x:Name="scroll7">
+                        <TextBlock TextWrapping="Wrap" Text="Number 4 approach love and relatioships seriously, and long-term commitment is likely to play the field. Long-term commitment is likely to be the priority for number 4. Other people will be attracted by the stability and security offered by Number 4, and in turn Number 4 will be attracted to vulnerable people who need more control in their lives. Generally, Number 4s are loving , considerate and caring partners. They will be protective of their chose partners and will be faithful and dependable . Number 4 parents care a great deal about their children and want the best for them. Family traditions are important to Number 4 and they will want their children to be involved in activities. Difficulties may arise as their children become teenagers and want to explore the alternative option that life has to offer." FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice" d:IsLocked="True">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="Satisfaction."/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor" d:IsLocked="True">
+            	<Grid>
+            		<TextBlock Margin="0,0,-14,0" TextWrapping="Wrap" FontSize="32" FontFamily="Pristina"><Run Text="PLANET:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" RAHU"/><LineBreak/><Run Text="DAY:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" SUNDAY"/><LineBreak/><Run Text="COLOR:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" GOLDEN"/><LineBreak/><Run Text="GEM:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" HESSONITE,CANELIAN"/><LineBreak/><Run Text="METAL:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" GOLD"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="NUMBERS" d:IsLocked="True">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina"><Run Text="FRIENDSHIP:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" 5,6,8"/><LineBreak/><Run Text="ENEMY:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" 1,2,9"/><LineBreak/><Run Text="MARRIAGE:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="1,4,6,8"/><LineBreak/><Run Text="BUSINESS:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" 1,4,6"/><LineBreak/><Run Text="ROMANCE:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" 1,4,6,8"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="PROFESSION">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="PLANNERS, LAWYERS, POLITICIANS, TECHNICIANS." FontSize="29.333" FontFamily="Pristina"/>
+            	</Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

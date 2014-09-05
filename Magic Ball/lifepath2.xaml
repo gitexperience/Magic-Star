@@ -1,0 +1,85 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life number2:The cooperator">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="Ball3.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll2">
+                        <TextBlock Margin="8,0,0,0" TextWrapping="Wrap" FontFamily="Pristina" FontSize="29.333"><Run Text="You are honest and rather too considerate, always thinking of others first. Being polite and corteous , you dislike coarse language or rude behaviour. Though not a natural leader , you can lead , if supported by a strong partner. However, you are a diplomat and a fine "/><Run Text="negotiator"/><Run Text=". You are a team player and possess the ability to inspire. You are efficient at jobs that require an eye for detail. In love , you prefer to have a steady partner.Your destiny is in the role of the mediator and the peacemaker. In  many ways you are dependent on "/><Run Text="o"/><Run Text="thers and seem to"/><Run Text=" function best in a partnership or in some form of group activity. Modesty runs deep in your nature, and you can work  comfortably without recognition of your accomplishments. Often, others get credit for your ideas, and this is of little concern to your since you are such a willing team player.You know how to organise and handle people. You are a good detail person because you rarely overlook anything. "/><Run Text="Tactful"/><Run Text=" and friendly, nearly everyone likes you."/><LineBreak/><Run/><Run Text=" "/></TextBlock>
+                    </ScrollViewer>
+
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll3">
+                	<TextBlock Margin="8,0,8,8" TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina" Text="You can be sensitive , indecisive and timid , and can give credit to others that is rightfully yours. You dislike competitive environment and resist an uncomfortable pace of work. The negative 2 personality can be over-sensitive and easily hurt .Too much of this number in your makeup can make you very shy and uncertain. Sometimes the excessive 2 energies makes one apathetic and somewhat indifferent to the job at hand; the ability to handle details is hampered in these cases. You may be self deprecating."/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            
+            <controls:PanoramaItem x:Name="panormaitem3" Header="Relationship">
+            	<Grid>
+                    <ScrollViewer>
+            		<TextBlock Margin="8" TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina" Text="Number 2 are committed and faithful to their partners and will expect the same in return. People born with the destiny number(life path number) 2 will make every effort to make to that their relationships are successful and will not likely to break in any situation. For this reason, Number 2 should be wary of making a commitment to the wrong person and should consider a relationship seriously before settling down. Number 2 destiny people, as parents, will ensure that their children are raised in a warm and loving environment. Their children will feel secure and supported by their parents , who will allow them freedom to develop independently but will always be there if needed. As the home is so important to Number 2s , they will strive to create the most comfortable and secure home for their families."/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormaitem4" Header="Karmic Advice">
+            	<Grid>
+            		<TextBlock Margin="8,0,8,8" TextWrapping="Wrap" FontFamily="Pristina" FontSize="29.333"><Run Text="=&gt;Do what you expect from others."/><LineBreak/><Run Text="=&gt;Individual stability."/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormaitem5" Header="LUCK FACTOR">
+            	<Grid>
+            		<TextBlock Margin="8" TextWrapping="Wrap" FontSize="32" FontFamily="Pristina"><Run Text="PLANET:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="MOON"/><LineBreak/><Run Text="DAY:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="MONDAY"/><LineBreak/><Run Text="COLOR:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="WHITE"/><LineBreak/><Run Text="GEM:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="PEARL">
+            				<Run.Foreground>
+            					<SolidColorBrush Color="#FFD3C5C5">
+            						<SolidColorBrush.RelativeTransform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.RelativeTransform>
+            						<SolidColorBrush.Transform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.Transform>
+            					</SolidColorBrush>
+            				</Run.Foreground>
+            			</Run><LineBreak/><Run Text="METAL:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" SILVER"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="NUMBERS">
+            	<Grid>
+            		<TextBlock Margin="8,8,0,8" TextWrapping="Wrap" FontSize="32" FontFamily="Pristina"><Run Text="FRIENDSHIP:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" 1,3"/><LineBreak/><Run Text="ENEMY:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" 5,4"/><LineBreak/><Run Text="MARRIAGE:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" 1,2,7,8"/><LineBreak/><Run Text="BUSINESS:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" 2,7,8"/><LineBreak/><Run Text="ROMANCE:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" 2,3,7,8"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="PROFESSION">
+            	<Grid>
+            		<TextBlock Margin="8,8,-10,8" TextWrapping="Wrap" FontFamily="Kokil" FontSize="29.333" Text="Owners of destiny number2 can be good psychologists, philosophers, poets , writers ,counselors , doctors, therapists, actors or dancers , diplomats , arbitrators , real estates , salesman , teachers, researchers, reformers etc."/>
+            	</Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

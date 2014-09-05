@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number 1:The Leader" FontSize="48" Margin="0,-1,0,1" FontFamily="Pristina">
+
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="magic ball4.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="+ve Points" FontFamily="Pristina">
+                <ScrollViewer x:Name="scroll1">
+                <TextBlock TextWrapping="Wrap" FontSize="29.333" Text="You are brave ,courageous, original and ambitious.You have drive,dash and determination, and a capability of initiating things on your own. You need to be comfortable with yourself for making an impact and remain undaunted even in the face of biggest challenges in the life. You are a doer and have the ability to make instant decisions .You are not a team player and work best alone , but still remain popular among colleagues . In any work you choose, your independent attitude is shown through. You are ambitious and assertive in promoting yourself. "/>
+                </ScrollViewer>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="___PanoramaItem2_" Header="-ve Points" Width="432" FontFamily="Kokila">
+            	<Grid>
+            		<TextBlock Margin="8,8,8,0" TextWrapping="Wrap" Text="You can be dictatorial and impatient at times. Not being a team player you hate opposition and criticism. Your dominant nature can spoil relationships .Unfortunately, sometimes you have to follow for a while before you are allowed to lead and this can be a tough time. You are over-achiever, egotistical, impulsive, violent, controlling , self-centered and impatient." FontFamily="Pristina" FontSize="29.333"/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormapage3" Header="Relationship">
+            	<Grid>
+                    <ScrollViewer x:Name="scroll">
+                        <TextBlock Margin="8,8,8,0" TextWrapping="Wrap" Text="The 1 energy appreciates relationships in both business and marriage , as they need the social contacts of others. In relationships, the person with the 1 vibration is a good companion , but needs the support of their partner . In marriage, they are extremely loyal, but not particularly romantic .To the 1 energy , deeds rather than words show love . The love- filled creative flow of the 1 vibration , coupled with the need to help all humanity, allows for compassion and warmth, which softens the energy of 1. Number 1 often needs a lot of reassurance and praise from their partners in order to boost their self-esteem . Number 1 are loving and dedicated parents who tend to be committed to the rearing of their children." FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormapage4" Header="KarmicAdvice" FontFamily="kokila">
+            	<Grid>
+            		<TextBlock Margin="0,0,0,8" Width="432" TextWrapping="Wrap" FontSize="29.333" Text="The formal rejection of something, typically a belief,claim or course of action."/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panorma_item5" Header="Luck Factor" FontFamily="Pristina">
+            	<Grid>
+            		<TextBlock Margin="8,8,8,0" TextWrapping="Wrap"><Run Text="Planet-:"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="SUN"/><LineBreak/><Run Text="Day:- "/><Run FontSize="29.333" FontFamily="Algerian" Text="SUNDAY"/><LineBreak/><Run Text="Color:-"/><Run FontSize="29.333" FontFamily="Algerian" Text="GOLDEN"/><LineBreak/><Run Text="Gem:-"/><Run FontSize="29.333" FontFamily="Algerian" Text="RUBY">
+            				<Run.Foreground>
+            					<SolidColorBrush Color="#FFFF001D">
+            						<SolidColorBrush.RelativeTransform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.RelativeTransform>
+            						<SolidColorBrush.Transform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.Transform>
+            					</SolidColorBrush>
+            				</Run.Foreground>
+            			</Run><LineBreak/><Run Text="Metal:-"/><Run FontSize="29.333" FontFamily="Algerian" Text="GOLD"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormapage6" Header="Numbers">
+            	<Grid>
+            		<TextBlock Margin="0,8,8,8" TextWrapping="Wrap"><Run Text="Friendship:- "/><Run FontSize="29.333" FontFamily="Algerian" Text="2,3,9"/><LineBreak/><Run Text="Enemy:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="29.333" FontFamily="Algerian" Text="4,6,8"/><LineBreak/><Run Text="Marriage:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="29.333" FontFamily="Algerian" Text="1,2,4,8,9"/><LineBreak/><Run Text="Business:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="29.333" FontFamily="Algerian" Text="1,4,8,9"/><LineBreak/><Run Text="Romance:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="29.333" FontFamily="Algerian" Text="1,3,4,6,8"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem x:Name="panormapage7" Header="Profession">
+            	<Grid>
+            		<TextBlock Margin="8,0,8,8" TextWrapping="Wrap" FontFamily="kokila"  FontSize="29.333" Text="You work IN THE AREAS WHICH ARE related to fame and areas of relationship and captaincy.EXAMPLE:-ADMINISTRATORS,DEPARTMENT HEADS,SCIENTISTS,RESEARCHERS,POLITICIANS,RESEARCHERS,DESIGNERS,ENGINEERS,CONSULTANTS, AND ADVISORS."/>
+            	</Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

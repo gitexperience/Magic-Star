@@ -1,0 +1,14 @@
+﻿<xapCache source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Release\Magic_Ball.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="22/08/2014 02:31:03">
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="22/08/2014 02:31:03" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Background.png" archivePath="Background.png" lastWriteTime="07/06/2014 14:50:59" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="07/06/2014 14:21:18" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\obj\Release\Magic Ball.dll" archivePath="Magic Ball.dll" lastWriteTime="22/08/2014 01:31:58" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="17/08/2011 01:48:22" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="06/07/2012 01:40:16" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v7.1\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="17/08/2011 01:48:22" />
+  <file source="D:\Downloads\WindowsPhoneWatermarkTextBoxControl.dll" archivePath="WindowsPhoneWatermarkTextBoxControl.dll" lastWriteTime="08/06/2014 07:58:22" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="07/06/2014 13:46:33" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/08/2014 01:31:59" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="07/06/2014 14:21:18" />
+  <file source="D:\Visual Studio 2010\Projects\Magic Ball\Magic Ball\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="07/06/2014 14:50:59" />
+</xapCache>

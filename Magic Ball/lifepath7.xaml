@@ -1,0 +1,96 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath7"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number 7: The Individualist">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="arial.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                <ScrollViewer x:Name="scroll13">
+                <TextBlock  TextWrapping="Wrap" Text="You are guided by intuition, positive thoughts and actions. You can see truth in a given situation before others. You plan secretively and generally perform well in public, but prefer to work alone and at your own pace. Perfectionist to the core you wait for perfect conditions before acting. You are attracted to the unusual and achievements often come in surprising ways.You dislike being ordered around. Thought ,analysis, introspection and seclusiveness are all characteristics of the number 7. The hallmark of the number 7 is a good mind, and especally good at searching out and finding the truth. You are so very capable of analysing, judging and discriminating, that very little ever escapes your observation and deep understanding. You can make a very fine teacher, or because of a natural inclination towards spiritual, you may become deeply emerged in religious affairs or even psychic explorations. The positive aspects of the 7 expression are that you can be true perfectioinst in the positive sense of the world. "  FontFamily="Pristina" FontSize="29.333"/>
+                </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                <ScrollViewer x:Name="scroll14">
+                <TextBlock TextWrapping="Wrap" FontFamily="Pristina" Text="You can appear cold and arrogant to others. Being secretive by nature, you sometimes hide your emotions. Not listening to advice can make the life difficult.The chief negative of 7 relates to the limited degree of trust that you may have in people. A tendency to be highly introverted can make you a bit on the self-centered side, certainly very much self-contained . Because of this, you are not very adaptable, and you may tend to be over critical and intolerant. You really like to work alone, at your own pace and in your own way. You  neither show or understand emotions very well." FontSize="29.333"/>
+                </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+                <Grid>
+                    <ScrollViewer x:Name="scroll15">
+                    <TextBlock TextWrapping="Wrap" FontFamily="Pristina" FontSize="29.333" Text="Number 7 are extremely romantic and fall head over heels in love easily. They have a tendency to declare their undying love in the very early stages of the relationship, and this can be off-putting for the object of their affections, who may feel that things are moving too fast. Number 7 should try to keep their emotions in check more and to let relationships grow at  more sedate pace. This approach is more likely to allow number 7 to discover if what they are experiencing is love or is a fact a brief infatuation. Number 7 approaches the duty of parenthood very seriously. They are committed parents, and the necessity for commitment can make them take a  more realistic approach to life. Number 7 parents have very strong affection for their children, and they will likely to have close relationship with them throughout their lives."/>
+                
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Practicality" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32"/>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Planet:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="KETU"/>
+            		<LineBreak/>
+            		<Run Text="Day:- "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="MONDAY"/>
+            		<LineBreak/>
+            		<Run Text="Color:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" white"/>
+            		<LineBreak/>
+            		<Run Text="Gem:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="cat's eye"/>
+            		<LineBreak/>
+            		<Run Text="Metal:-"/>
+            		<Run Text=" "/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" white gold"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Numbers">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Friendship:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 8,6,5"/>
+            		<LineBreak/>
+            		<Run Text="Enemy:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="1,2,9"/>
+            		<LineBreak/>
+            		<Run Text="Marriage:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="2,3,6,7"/>
+            		<LineBreak/>
+            		<Run Text="Business:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 2,3,6,7"/>
+            		<LineBreak/>
+            		<Run Text="Romance:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 2,3,7,9"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Profession">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Artists, teachers, journalists, film makers." VerticalAlignment="Top" Width="420" FontFamily="Andalus" FontSize="32"/>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>

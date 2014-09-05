@@ -1,0 +1,73 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath5"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number5:- Communicator">
+
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="magic ball4.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll8">
+                	<TextBlock TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina"><Run Text="Being multi-talented and versatile, you display a youthful and exciting attitude towards life. A shrewd and analytical minds help you see through people, but curiosity and a highly adaptable nature makes you accept and communicate with them. Being a motivator, you possess a competitive spirit that helps you work under stress. You love travel and can live out of the suitcase. A sexual magnetism, that you unknowingly exude, adds to your popularity! .The number 5 expression number endows with the wonderful character of multi-talents and versatility. You can do so many things well. The tone of the number is constructive freedom ,and in your drive to attain this freedom ,you  will likely to be the master of"/><Run Text=" adaptability and change. You are good at presenting ideas and knowing how to approach people to get what you want. Naturally, this gives you an edge in any sort of selling game and spells easy success when it comes to working with people in most jobs. Your popularity may lead you towards some form of entertainment or amusement. Whatever you do, you are clever, analytical, and a very quick thinker."/></TextBlock>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll9">
+                	<TextBlock TextWrapping="Wrap" Text="You can be self- indulgent, impatient and a tendency to overreact. Your risk- taking nature can find you job-hopping frequently. You can easily slip into a permissive lifestyle. Your restless and impatient attitude may keep you from staying with any project for too long. Sometimes you cam be rather erratic and scatter yourself and your energies. You have a hard time keeping regular office hours and maintaining any sort of routine. You tend to react strongly if you sense that your freedom of speech or action is being impaired or restricted in any way. As clever as you are ,you may have a tendency to make the same mistakes over and over again because much of your response is glib reaction rather than thoughtful application. You are in a continuous state of flux brought by constantly changing interests." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+            	<Grid>
+                    <ScrollViewer x:Name="scroll10">
+            		<TextBlock TextWrapping="Wrap" Text="Number 5 are likely to have many relationships and experiencing a series of broken relationships is often a part of their path. They are adventurous in the area of romance and want to have a wide variety of experiences. Their easy-going natures and interest in people means that they will never be short of admirers. Number 5s find most people attractive and interesting and so will take up many of the offers. Numbers 5 are committed to being good parents and will give their children all the support and encouragement that they need. As parents, Number 5 are aware of the importance of allowing their children space and respect to choose their own directions. Number 5 and their children will generally enjoy relationships based on mutual respect." FontSize="29.333" FontFamily="Pristina"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="Be sober and refrain from excess." FontFamily="Pristina" FontSize="29.333"/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" FontFamily="Pristina" FontSize="32"><Run Text="Planet:-"/><Run FontSize="29.333" FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="Mercury"/><LineBreak/><Run Text="Day:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" Wednesday"/><LineBreak/><Run Text="Color:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" Green"/><LineBreak/><Run Text="Gem:-"/><Run FontSize="26.667" FontFamily=" al" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="emerald"/><LineBreak/><Run Text="Metal:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" gold"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Numbers">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" FontFamily="Pristina" FontSize="32"><Run Text="Friendship:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="1,4,6"/><LineBreak/><Run Text="Enemy:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="2"/><LineBreak/><Run Text="Marriage:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="3,5,9"/><LineBreak/><Run Text="Business:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="3,5,9"/><LineBreak/><Run Text="Romance:-"/><Run FontSize="26.667" FontFamily="Algerian" Text="3,5,6,8"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Profession">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="Businessmen, investors, bankers, stock brokers." FontFamily="Pericles"/>
+            	</Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

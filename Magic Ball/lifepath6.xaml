@@ -1,0 +1,95 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath6"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life Number6:- The Teacher">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="Ball3.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll9">
+                	<TextBlock TextWrapping="Wrap" Text="You are well balanced, responsible and creative. You can teach and function well as a part of a team. In life, responsibility is often thrust upon you. You love to serve others, out of sheer goodwill. Extremely loyal, you make friends for life. You are a good homemaker and love of the home is over present in you. Harmony, pleasant and beautiful surroundings and a peaceful life attract you. You love fair play. You will nurture and support , will create lavish environments. You are very loving, friendly , and appreciative of others. You have a depth of understanding that produces much sympathetic , kindness and generosity. The qualities of 6 makes the finest and most concerned parent and one often deeply involved in domestic activities. Openness and honesty is apparent in your approach to all relationships." FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                    <ScrollViewer x:Name="scroll10">
+                	<TextBlock TextWrapping="Wrap" Text="You are a prone in giving unwanted advice. You can feel unbalanced in the absence of harmony and stability . You are worrisome and can over indulge in food. There may be a tendency for you to be too exacting and demanding of yourself. In this regard, you may sacrificed yourself( of your loved ones) for the welfare of others. In some cases, the over zealous 6 has difficulty helping from interfering . You may have difficulty expressing your own individuality, because of involvement with responsibilities and causes. Like all with the expression of the number 6 , it's quite likely that you worry too much." FontFamily="Pristina" FontSize="29.333"/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+            	<Grid>
+                    <ScrollViewer x:Name="scroll12">     
+                        <TextBlock TextWrapping="Wrap" FontFamily="Pristina" FontSize="29.333" Text="Number 6 can find it difficult to find a suitable partner. They are often drawn to people who project the right image, however, and this can lead to disappointment for number 6 if they fallen for the image rather than a person. It may be wiser for number 6 to look for a partner who will meet their emotional needs, someone sensitive and understanding. If number 6 find such a mate, they may be able to begin to deal with their stresses and emotional difficulties. In relationships, Number 6 needs a lots of affection and reassurance, and their partners should be aware that they may be hiding negative emotions. The family unit is of utmost important to number 6, and they make proud parents. They will take great pride in their children achievements and will always prioritize events such as schools concerts. They should be wary of pressuring their children to succeed  and should not place too much emphasis on academic achievements."/>
+                    </ScrollViewer>
+
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" Text="Discipline" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="29.333"/>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<TextBlock HorizontalAlignment="Left" Height="498" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Planet:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" VENUS"/>
+            		<LineBreak/>
+            		<Run Text="Day:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="FRIDAY"/>
+            		<LineBreak/>
+            		<Run Text="Color:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" SILVER"/>
+            		<LineBreak/>
+            		<Run Text="Gem:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="DIAMOND"/>
+            		<LineBreak/>
+            		<Run Text="Metal:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text="SILVER"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Numbers">
+            	<TextBlock HorizontalAlignment="Left" Height="500" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" FontFamily="Pristina" FontSize="32">
+            		<Run Text="Friendship:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 4,5,8"/>
+            		<LineBreak/>
+            		<Run Text="Enemy:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 1,2"/>
+            		<LineBreak/>
+            		<Run Text="Marriage:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 3,6,8"/>
+            		<LineBreak/>
+            		<Run Text="Business:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 3,6,9"/>
+            		<LineBreak/>
+            		<Run Text="Romance:-"/>
+            		<Run FontSize="29.333" FontFamily="Algerian" Text=" 1,2,5,6,8,9"/>
+            	</TextBlock>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Profession">
+            	<TextBlock HorizontalAlignment="Left" Height="497" TextWrapping="Wrap" Text="Health care, alchemists, art critics, journalists." VerticalAlignment="Top" Width="420" FontFamily="Andalus" FontSize="29.333"/>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,81 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Magic_Ball.lifepath3"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="800"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <controls:Panorama Title="Life number3:The Entertainer" d:IsLocked="True">
+            <controls:Panorama.Background>
+                <ImageBrush ImageSource="arial.jpg" Opacity=".6" Stretch="UniformToFill"/>
+            </controls:Panorama.Background>
+
+            <!--Panorama item one-->
+            <controls:PanoramaItem Header="+ve Points" d:IsLocked="True">
+             
+                <Grid>
+                    <ScrollViewer x:Name="scroll4">
+                	<TextBlock TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina" Text="Happy and enthusiastic, you bring joy wherever you go. Your natural wit and eloquence draws you towards entertainmentand makes you enjoy the lighter side of life. You love to socialize and party, and need people around you. Your sharp mind help you to learn skills quickly. Being imaginative and creative, you always yearn to express creativity. Always lucky, you make money easily. Many sportspersons and dancers come under ths number. You will control, inspire and pull society upward and forward through idealistic contributionsYou are friendly, loving and social, and people like you because you are charming and such a good conversationalist. Your ability to communicate may often inspire others. It is your role in life to inspire and motivate; to raise the spirits those around you."/>
+                    </ScrollViewer>
+                </Grid>
+            </controls:PanoramaItem>
+
+            <!--Panorama item two-->
+            <controls:PanoramaItem Header="-ve Points">
+                <Grid>
+                	<TextBlock Margin="8,0,0,8" TextWrapping="Wrap" FontSize="29.333" FontFamily="Pristina" Text="You are always in need of a high and can quicklybecome bored and restless. You find it difficult to cope and lonelineless. You can extravagent. You also lack endurance. Generally, the negative side of number 3 is superficiality. You may tend to scatter your forces and simple be too easygoing.It is advisable for the negative3 to avoid dwelling on trivial matters, especially gossip."/>
+                </Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Relationship">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="Destiny number 3 have high expectations from their partners. Their ideal partners are exceptionally attractive and are individuals who stand out from the crowd.Number3 are fun-loving parents. They view their childrens as equals and will enjoy sharing new experiences together. Number3 parents will spent a lot of time talking to their children, discussing the exciting events of the day, As parents , number3 will encourage their children to be sociable and willput on extravagant partiesfor their children and their friends." FontFamily="Pristina" FontSize="29.333"/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Karmic Advice">
+            	<Grid>
+            		<TextBlock Margin="8,8,0,8" TextWrapping="Wrap" Text="selfless service" FontSize="29.333" FontFamily="Pristina"/>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="Luck Factor">
+            	<Grid>
+            		<TextBlock Margin="8,8,0,0" TextWrapping="Wrap" FontSize="32" FontFamily="Pristina"><Run Text="Planet:-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" JUPITER"/><LineBreak/><Run Text="Day:- "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="THURSDAY"/><LineBreak/><Run Text="Color:- "/><Run FontFamily="Algerian" Text=" "/><Run FontFamily="Algerian" Text="YELLOW"/><LineBreak/><Run Text="Gem:- "/><Run FontSize="26.667" FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="YELLOW SAPPHIRE">
+            				<Run.Foreground>
+            					<SolidColorBrush Color="#FFFFCC00">
+            						<SolidColorBrush.RelativeTransform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.RelativeTransform>
+            						<SolidColorBrush.Transform>
+            							<MatrixTransform Matrix="Identity"/>
+            						</SolidColorBrush.Transform>
+            					</SolidColorBrush>
+            				</Run.Foreground>
+            			</Run><LineBreak/><Run Text="Metal:-"/><Run Text=" "/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="GOLD"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="NUMBERS">
+            	<Grid>
+            		<TextBlock Margin="0,0,8,0" TextWrapping="Wrap" FontSize="32" FontFamily="Pristina"><Run Text="Friendship:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="1,2,9"/><LineBreak/><Run Text="Enemy"/><Run FontSize="26.667" Text=":-"/><Run FontSize="26.667" FontFamily="Algerian" Text=" 5,6"/><LineBreak/><Run Text="Marriage:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="3,5,6,7,9"/><LineBreak/><Run Text="Business:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="3,5,6,7,9"/><LineBreak/><Run Text="Romance:-"/><Run FontFamily="Algerian" Text=" "/><Run FontSize="26.667" FontFamily="Algerian" Text="1,3,6,9"/></TextBlock>
+            	</Grid>
+            </controls:PanoramaItem>
+            <controls:PanoramaItem Header="PROFESSION">
+            	<Grid>
+            		<TextBlock TextWrapping="Wrap" Text="Scholars, professors , bankers, scientists, business executives, actors." Margin="0,0,8,0" FontSize="29.333" FontFamily="Pristina"/>
+            	</Grid>
+            </controls:PanoramaItem>
+        </controls:Panorama>
+    </Grid>
+
+    <!--Panorama-based applications should not show an ApplicationBar-->
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{404A093D-DC5D-4C8B-A059-AF0F4326CCEA}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Magic_Ball</RootNamespace>
+    <AssemblyName>Magic Ball</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <TargetFrameworkProfile>WindowsPhone71</TargetFrameworkProfile>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>Magic_Ball.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Magic_Ball.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <Utf8Output>true</Utf8Output>
+    <ExpressionBlendVersion>4.0.30816.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="Microsoft.Phone" />
+    <Reference Include="Microsoft.Phone.Controls, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Controls.Toolkit, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b772ad94eb9ca604, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone.Interop" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Interactivity, Version=3.8.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml" />
+    <Reference Include="mscorlib.extensions" />
+    <Reference Include="WindowsPhoneWatermarkTextBoxControl">
+      <HintPath>..\..\..\..\..\Downloads\WindowsPhoneWatermarkTextBoxControl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutus.xaml.cs">
+      <DependentUpon>aboutus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday1.xaml.cs">
+      <DependentUpon>birthday1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday10.xaml.cs">
+      <DependentUpon>birthday10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday11.xaml.cs">
+      <DependentUpon>birthday11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday12.xaml.cs">
+      <DependentUpon>birthday12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday13.xaml.cs">
+      <DependentUpon>birthday13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday14.xaml.cs">
+      <DependentUpon>birthday14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday15.xaml.cs">
+      <DependentUpon>birthday15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday16.xaml.cs">
+      <DependentUpon>birthday16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday17.xaml.cs">
+      <DependentUpon>birthday17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday18.xaml.cs">
+      <DependentUpon>birthday18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday19.xaml.cs">
+      <DependentUpon>birthday19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday2.xaml.cs">
+      <DependentUpon>birthday2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday20.xaml.cs">
+      <DependentUpon>birthday20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday21.xaml.cs">
+      <DependentUpon>birthday21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday22.xaml.cs">
+      <DependentUpon>birthday22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday23.xaml.cs">
+      <DependentUpon>birthday23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday24.xaml.cs">
+      <DependentUpon>birthday24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday25.xaml.cs">
+      <DependentUpon>birthday25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday26.xaml.cs">
+      <DependentUpon>birthday26.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday27.xaml.cs">
+      <DependentUpon>birthday27.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday28.xaml.cs">
+      <DependentUpon>birthday28.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday29.xaml.cs">
+      <DependentUpon>birthday29.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday3.xaml.cs">
+      <DependentUpon>birthday3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday30.xaml.cs">
+      <DependentUpon>birthday30.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday31.xaml.cs">
+      <DependentUpon>birthday31.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday4.xaml.cs">
+      <DependentUpon>birthday4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday5.xaml.cs">
+      <DependentUpon>birthday5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday6.xaml.cs">
+      <DependentUpon>birthday6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday7.xaml.cs">
+      <DependentUpon>birthday7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday8.xaml.cs">
+      <DependentUpon>birthday8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="birthday9.xaml.cs">
+      <DependentUpon>birthday9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath1.xaml.cs">
+      <DependentUpon>lifepath1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath2.xaml.cs">
+      <DependentUpon>lifepath2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath3.xaml.cs">
+      <DependentUpon>lifepath3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath4.xaml.cs">
+      <DependentUpon>lifepath4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath5.xaml.cs">
+      <DependentUpon>lifepath5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath6.xaml.cs">
+      <DependentUpon>lifepath6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath7.xaml.cs">
+      <DependentUpon>lifepath7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath8.xaml.cs">
+      <DependentUpon>lifepath8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lifepath9.xaml.cs">
+      <DependentUpon>lifepath9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="aboutus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday25.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday26.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday27.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday28.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday29.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday30.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday31.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="birthday9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lifepath9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+    <None Include="Properties\WMAppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Arial.jpg" />
+    <Content Include="Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="background1.png" />
+    <Resource Include="Ball2.jpg" />
+    <Resource Include="Magic ball4.jpg" />
+    <Resource Include="Ball3.jpg" />
+    <Resource Include="lifepath4.jpg" />
+    <Content Include="SplashScreenImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.$(TargetFrameworkProfile).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\Silverlight for Phone\$(TargetFrameworkVersion)\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>
